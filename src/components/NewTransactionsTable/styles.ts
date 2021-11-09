@@ -60,10 +60,10 @@ interface RadioBoxProps {
     activeColor: 'green' | 'red';
 }
 
-const colors = {
-    green: '#33cc95',
-    red: '#e52e4d'
-};
+// const colors = {
+//     green: '#33cc95',
+//     red: '#e52e4d'
+// };
 
 export const RadioBox = styled.button<RadioBoxProps>`
     height: 4rem;
